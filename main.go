@@ -1,1 +1,13 @@
-package learn_how_to_code_go
+package main
+
+import (
+	"fmt"
+	"github.com/sudeep-tamara/puppy"
+)
+
+func main() {
+	fmt.Println("Hello Gophers Again!! :)")
+	fmt.Println(puppy.Bark())
+	fmt.Println(puppy.BigBark())
+	fmt.Println(puppy.BigBarks())
+}
